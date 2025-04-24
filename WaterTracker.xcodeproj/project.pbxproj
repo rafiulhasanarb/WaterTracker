@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B1A3C9D52DBA8DD30081CF8B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B1A3C9D42DBA8DD30081CF8B /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		B1A3C9D42DBA8DD30081CF8B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B1B996D12DBA444F00D25696 /* WaterTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		B1B996C82DBA444F00D25696 = {
 			isa = PBXGroup;
 			children = (
+				B1A3C9D42DBA8DD30081CF8B /* README.md */,
 				B1B996D32DBA444F00D25696 /* WaterTracker */,
 				B1B996D22DBA444F00D25696 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A3C9D52DBA8DD30081CF8B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
