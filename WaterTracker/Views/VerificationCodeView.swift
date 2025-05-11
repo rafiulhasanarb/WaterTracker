@@ -13,7 +13,7 @@ struct VerificationCodeView: View {
             
             Spacer()
             
-            VStack(alignment: .center, spacing: 16) {
+            VStack(alignment: .center, spacing: 8) {
                 Text("Verification Code")
                     .font(.title)
                     .fontWeight(.bold)
@@ -25,7 +25,7 @@ struct VerificationCodeView: View {
                     .multilineTextAlignment(.leading)
                 
                 Spacer()
-                    .frame(height: 16)
+                    .frame(height: 20)
                 
                 HStack(spacing: 16) {
                     ForEach(0..<6, id: \.self) { _ in
@@ -37,7 +37,7 @@ struct VerificationCodeView: View {
                 }
                 
                 Spacer()
-                    .frame(height: 16)
+                    .frame(height: 20)
                 
                 CustomButtonView(buttonTitle: "Verify", action: {})
             }
@@ -54,7 +54,7 @@ struct VerificationCodeView: View {
                     Text("Resend")
                         .font(.body)
                         .fontWeight(.bold)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.themePrimary)
                 }
             }
             .padding(.bottom, 30)
